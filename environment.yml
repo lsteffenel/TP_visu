@@ -1,21 +1,23 @@
 name: pythondatascientist
 channels:
   - conda-forge
-  - anaconda
-  - defaults
 dependencies:
-  - numpy
-  - numpy-base
-  - matplotlib
-  - matplotlib-base
-  - seaborn
+  - python=3.7
   - folium
   - ffmpeg
   - geos
   - cartopy
-  - pandas
   - pillow
-  - python=3.8.5
-  - scikit-image
+  - matplotlib
+  - numpy
+  - pandas
+  - pandas-datareader
+  - pip
+  - pprofile
+  - pyzmq
   - scikit-learn
-  - seaborn-base
+  - scipy
+  - seaborn
+  - snakeviz
+  - sympy
+  - xlrd
